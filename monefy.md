@@ -2,7 +2,7 @@
 
 Monefy tests cases were defined based on the application user experience. I created a flow shown in the image below and it reflects the paths the user will take to use the functionalities of the application.
 
-![Full flow](https://github.com/aldo-munhoz/N26/monefy_full_flow.png)
+![Full flow](https://github.com/aldo-munhoz/N26/blob/master/monefy_full_flow.png)
 
 So, first I focused on the main screen and the buttons presented to the user, then I started checking the menus and all its particularities.
 
@@ -21,7 +21,7 @@ Error conditions not considered in this test case, but they should be addressed 
 > A New Expense is included and shown in parenthesis in the middle circle.
 > Balance is computed with the difference between incomes and expenses.
 
-![Test Case 1](https://github.com/aldo-munhoz/N26/path_01.png)
+![Test Case 1](https://github.com/aldo-munhoz/N26/blob/master/path_01.png)
 
 ## Add New income
 Error conditions not considered in theis test case, but they should be addressed as well
@@ -36,7 +36,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > A new income is included and shown in green font in the middle circle.
 > A difference between the income and the expense is shown in the balance box.
 
-![Test Case 2](https://github.com/aldo-munhoz/N26/path_02.png)
+![Test Case 2](https://github.com/aldo-munhoz/N26/blob/master/path_02.png)
 
 ## Modify Existing Category
 - Click ellipsis button on the upper right corner
@@ -47,7 +47,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > **Expected result:**
 > The chosen category icon is changed
 
-![Test Case 3](https://github.com/aldo-munhoz/N26/path_03.png)
+![Test Case 3](https://github.com/aldo-munhoz/N26/blob/master/path_03.png)
 
 ## Delete Existing Category
 - Click ellipsis button on the upper right corner
@@ -57,7 +57,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > **Expected result:**
 > The category no longer shows among the existing ones
 
-![Test Case 4](https://github.com/aldo-munhoz/N26/path_04.png)
+![Test Case 4](https://github.com/aldo-munhoz/N26/blob/master/path_04.png)
 
 ## Disable Category
 - Click the ellipsis button on the upper right corner
@@ -69,7 +69,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > **Expected result:**
 > The disabled category is grayed out and shown in the bottom of the category
 
-![Test Case 5](https://github.com/aldo-munhoz/N26/path_05.png)
+![Test Case 5](https://github.com/aldo-munhoz/N26/blob/master/path_05.png)
 
 ## Enable Category
 - Click the ellipsis button on the upper right corner
@@ -93,7 +93,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > Status message informing that the two categories were merged is presented at the bottom of the screen
 > First category no longer shows up in the list of Categories
 
-![Test Case 6](https://github.com/aldo-munhoz/N26/path_06.png)
+![Test Case 6](https://github.com/aldo-munhoz/N26/blob/master/path_06.png)
 
 ## Create New Category
 - Click the ellipsis button on the upper right corner
@@ -103,7 +103,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > **Expected result:**
 > A new category is added to the list of Categories
 
-![Test Case 7](https://github.com/aldo-munhoz/N26/path_07.png)
+![Test Case 7](https://github.com/aldo-munhoz/N26/blob/master/path_07.png)
 
 ## Modify Existing Account Information
 - Click the ellipsis button on the upper right corner
@@ -119,7 +119,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > **Expected result:**
 > The existing account information is changed
 
-![Test Case 8](https://github.com/aldo-munhoz/N26/path_08.png)
+![Test Case 8](https://github.com/aldo-munhoz/N26/blob/master/path_08.png)
 
 ## Remove Account from Balance
 - Click the ellipsis button on the upper right corner
@@ -130,7 +130,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > **Expected result:**
 > The existing account is removed from the balance
 
-![Test Case 9](https://github.com/aldo-munhoz/N26/path_09.png)
+![Test Case 9](https://github.com/aldo-munhoz/N26/blob/master/path_09.png)
 
 ## Delete Existing Account
 - Click the ellipsis button on the upper right corner
@@ -140,7 +140,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > **Expected result:**
 > The account is removed from the list of Accounts
 
-![Test Case 10](https://github.com/aldo-munhoz/N26/path_10.png)
+![Test Case 10](https://github.com/aldo-munhoz/N26/blob/master/path_10.png)
 
 ## Disable Account
 - Click the ellipsis button on the upper right corner
@@ -152,7 +152,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > **Expected result:**
 > The disabled account is grayed out and shown in the bottom of the accounts list
 
-![Test Case 11](https://github.com/aldo-munhoz/N26/path_11.png)
+![Test Case 11](https://github.com/aldo-munhoz/N26/blob/master/path_11.png)
 
 ## Enable Account
 - Click the ellipsis button on the upper right corner
@@ -176,7 +176,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > Status message informing that the two accounts were merged is presented at the bottom of the screen
 > First account no longer shows up in the list of Accounts
 
-![Test Case 12](https://github.com/aldo-munhoz/N26/path_12.png)
+![Test Case 12](https://github.com/aldo-munhoz/N26/blob/master/path_12.png)
 
 ## Create New Account
 - Click the ellipsis button on the upper right corner
@@ -193,7 +193,7 @@ A test case for adding a zero expense must be considered, to check whether the a
 > **Expected result:**
 > A new account is added to the list of Accounts
 
-![Test Case 13](https://github.com/aldo-munhoz/N26/path_13.png)
+![Test Case 13](https://github.com/aldo-munhoz/N26/blob/master/path_13.png)
 
 ## Modify Existing currency
 This item requires a pro license, so all possible test cases can't be fully identified
@@ -204,7 +204,7 @@ This item requires a pro license, so all possible test cases can't be fully iden
 > **Expected result:**
 > No action is performed
 
-![Test Case 14](https://github.com/aldo-munhoz/N26/path_14.png)
+![Test Case 14](https://github.com/aldo-munhoz/N26/blob/master/path_14.png)
 
 ## Modify Configuration item
 There should be a test case per configuration item. Here I am only presenting a single one
@@ -215,7 +215,7 @@ There should be a test case per configuration item. Here I am only presenting a 
 > **Expected result:**
 > Configuration item is changed
 
-![Test Case 15](https://github.com/aldo-munhoz/N26/path_15.png)
+![Test Case 15](https://github.com/aldo-munhoz/N26/blob/master/path_15.png)
 
 ## Apply Filter
 There should be a test case per filter. Here I am only presenting one
@@ -225,7 +225,7 @@ There should be a test case per filter. Here I am only presenting one
 >The top of screen label is changed according to the granularity chosen
 >The expenses and incomes are filtered according to the granularity chosen
 
-![Test Case 16](https://github.com/aldo-munhoz/N26/path_16.png)
+![Test Case 16](https://github.com/aldo-munhoz/N26/blob/master/path_16.png)
 
 ## Check summarizing items
 - Click the balance rectangle in the middle of screen
@@ -277,7 +277,5 @@ Other filters may be applied
 - Swipe the main screen from right to left
 > **Expected result:**
 > Expenses made in different dates show up in the corresponding dates
-
-- 
 
 
