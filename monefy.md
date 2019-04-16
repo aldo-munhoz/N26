@@ -235,7 +235,7 @@ There should be a test case per filter. Here I am only presenting one
 > **Expected result:**
 > Categories are summarizing correctly
 
-# Check positive balance
+## Check positive balance
 - Click the balance rectangle in the middle of the screen
 - Verify whether the positive values (green) less the negative values (red) is equal to the value shown in the balance
 - Verify whether a positive balance is shown in green
@@ -243,14 +243,14 @@ There should be a test case per filter. Here I am only presenting one
 > **Expected result:**
 > Positive balance is shown as a green rectangle
 
-# Check negative balance
+## Check negative balance
 - Click the balance rectangle in the middle of the screen
 - Verify whether the positive values (green) less the negative values (red) is equal to the value shown in the balance
 - Verify whether a negative balance is shown in red
 > **Expected result:**
 > Negative balance is shown as a red rectangle
 
-# Check percentile
+## Check percentile
 - Verify whether the categories included in the balance have a line connecting them to the middle circle
 - Verify whether the categories included in the balance have a percentage underneath their icon
 - Click the circle area related to a given category
@@ -262,7 +262,7 @@ There should be a test case per filter. Here I am only presenting one
 > **Expected result:**
 > Shown ratio equals calculated ratio
 
-# New Transfer
+## New Transfer
 - Click the Transfer icon on the top of the screen
 - Choose the transfer date
 - Type the transfer amount
@@ -271,11 +271,9 @@ There should be a test case per filter. Here I am only presenting one
 > **Expected result:**
 > Transfer information is presented in the list of transactions
 
-# Swipe
+## Swipe
 Other filters may be applied
 - Filter by Day
 - Swipe the main screen from right to left
 > **Expected result:**
 > Expenses made in different dates show up in the corresponding dates
-
-
