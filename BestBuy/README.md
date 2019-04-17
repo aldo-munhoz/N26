@@ -72,11 +72,11 @@ The test execution result will show a table in the following format:
 |test-scripts      |       35|        0|
 |prerequest-scripts|        0|        0|
 |assertions        |       35|        8|
-|--------------------------------------|
+|                                      |
 |total run duration: 2.5s              |
 |total data received: 169.46KB (approx)|
 |av. response time: 46ms               |
-|--------------------------------------|
+|                                      |
 
 ## Comments
 Another way of working with Postman would be to edit the *package.json* file to add the *newman* command to it as well as its depency, so one could use *npm run <scripts>* to execute the tests as part of the application package.
