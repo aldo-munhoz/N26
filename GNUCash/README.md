@@ -1,4 +1,4 @@
-#GNU Cash Android
+# GNU Cash Android
 
 I have already worked with the automation of Android applications, but when I worked it required me to have an Android mobile phone, to enable the USB Debugging under the Developer Options in Settings.
 
